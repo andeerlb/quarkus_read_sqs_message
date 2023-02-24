@@ -1,8 +1,8 @@
-package com.nexti.timetracking.messagerouter;
+package com.queue.messagerouter;
 
-import com.nexti.timetracking.messagerouter.dtos.MessageHandler;
-import com.nexti.timetracking.messagerouter.interfaces.MessageExecutor;
-import com.nexti.timetracking.messagerouter.interfaces.MessageManipulation;
+import com.queue.messagerouter.dtos.MessageHandler;
+import com.queue.messagerouter.interfaces.MessageExecutor;
+import com.queue.messagerouter.interfaces.MessageManipulation;
 import io.quarkus.scheduler.Scheduled;
 import io.quarkus.vertx.ConsumeEvent;
 import io.smallrye.mutiny.Uni;

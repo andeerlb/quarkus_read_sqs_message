@@ -1,6 +1,6 @@
-package com.nexti.timetracking.messagerouter.interfaces;
+package com.queue.messagerouter.interfaces;
 
-import com.nexti.timetracking.messagerouter.dtos.MessageHandler;
+import com.queue.messagerouter.dtos.MessageHandler;
 import software.amazon.awssdk.services.sqs.model.DeleteMessageResponse;
 import software.amazon.awssdk.services.sqs.model.ReceiveMessageResponse;
 

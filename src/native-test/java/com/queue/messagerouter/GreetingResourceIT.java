@@ -1,4 +1,4 @@
-package com.nexti.timetracking.messagerouter;
+package com.queue.messagerouter;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

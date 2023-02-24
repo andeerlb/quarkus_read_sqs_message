@@ -1,7 +1,7 @@
-package com.nexti.timetracking.messagerouter;
+package com.queue.messagerouter;
 
-import com.nexti.timetracking.messagerouter.dtos.MessageHandler;
-import com.nexti.timetracking.messagerouter.interfaces.MessageManipulation;
+import com.queue.messagerouter.dtos.MessageHandler;
+import com.queue.messagerouter.interfaces.MessageManipulation;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import software.amazon.awssdk.services.sqs.SqsAsyncClient;
 import software.amazon.awssdk.services.sqs.model.DeleteMessageResponse;

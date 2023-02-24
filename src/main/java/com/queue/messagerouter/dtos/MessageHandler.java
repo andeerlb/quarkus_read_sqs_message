@@ -1,4 +1,4 @@
-package com.nexti.timetracking.messagerouter.dtos;
+package com.queue.messagerouter.dtos;
 
 import software.amazon.awssdk.services.sqs.model.Message;
 

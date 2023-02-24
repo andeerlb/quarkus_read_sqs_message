@@ -1,6 +1,6 @@
-package com.nexti.timetracking.messagerouter;
+package com.queue.messagerouter;
 
-import com.nexti.timetracking.messagerouter.interfaces.MessageExecutor;
+import com.queue.messagerouter.interfaces.MessageExecutor;
 
 import javax.enterprise.context.ApplicationScoped;
 
