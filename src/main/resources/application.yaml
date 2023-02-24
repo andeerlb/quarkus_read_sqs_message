@@ -1,0 +1,28 @@
+quarkus:
+  queue:
+    interval: 1s
+  http:
+    port: 4040
+  application:
+    name: client
+  spring-cloud-config:
+    enabled: false
+    url: http://localhost:8888
+
+
+# DEV
+"%dev":
+  quarkus:
+    sqs:
+      max-number-of-messages: 10
+      aws:
+        credentials:
+          type: static
+          static-provider:
+            access-key-id: test-key
+            secret-access-key: test-secret
+        region: us-east-1
+      endpoint-override: http://localhost:4566
+    queue:
+      list:
+        - queueName
